@@ -1,0 +1,63 @@
+.introduction {
+  background-color: var(--color-bg-dark);
+  padding: 134px 0 150px;
+}
+
+.introduction__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 112%;
+  letter-spacing: -0.02em;
+  color: var(--color-text-light);
+}
+
+.introduction__quote {
+  padding-top: 31px;
+  padding-bottom: 36px;
+}
+
+.quote__text {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 142%;
+  letter-spacing: -0.02em;
+  color: var(--color-text-light);
+  padding-bottom: 36px;
+}
+
+.quote__info {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.quote__icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+  background-image: url('/images/pic1.png');
+  flex-shrink: 0;
+  background-size: 100%;
+  background-position: 48% 3%;
+}
+
+.quote__name {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 156%;
+  color: var(--color-text-light);
+}
+
+.quote__job {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: var(--color-text-light);
+}

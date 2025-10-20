@@ -1,4 +1,35 @@
 :root {
-  --color-white: #e3e3e3;
-  --color-black: #1d1d1d;
+  --color-jet-black: #0a0a0a;
+  --color-rich-graphite: #191919;
+  --color-eerie-black: #1e1e1e;
+  --color-spanish-gray: #969696;
+  --color-dark-green: #052825;
+  --color-selago: #e7ebfc;
+  --color-dark-gray: #1a1a1a;
+  --color-800-n: #323232;
+  --color-bridge-gray: #767676;
+  --color-white-new: #fff;
+  --color-royal-blue: #2e4fd7;
+  --color-light-periwinkle: #a1b3f4;
+  --color-mint-green: #46ba71;
+  --color-coral-red: #f46953;
+  --color-black-new: #000;
+  --color-charcoal-black: #18191f;
+  --color-logo-google-blue: #4285f4;
+  --color-logo-chilled-chilly: #ea4335;
+  --color-logo-safety-orange: #f60;
+  --color-logo-orange-peel: #f90;
+  --color-logo-deep-sky-blue: #00a4ef;
+  --color-logo-space-cadet: #041e42;
+  --color-logo-chateau-green: #34a853;
+  --color-logo-fed-ex-purple: #652c8f;
+  --color-logo-industrial-revolution: #737373;
+  --color-logo-lime-green: #7fba00;
+  --color-logo-pear: #d7df23;
+  --color-logo-cinnabar: #ee2e24;
+  --color-logo-orange-red: #f25022;
+  --color-logo-selective-yellow: #fbbc05;
+  --color-logo-radical-red: #ff385c;
+  --color-logo-bladder-burst: #ffb900;
+  --color-logo-turbo: #ffc124;
 }
