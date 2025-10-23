@@ -1,12 +1,12 @@
 .customers {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 .customers__number {
   flex: 1;
-  min-width: 350px;
-  padding: 90px 0;
+  padding: 40px 0;
 }
 
 .customers__number-title {
@@ -17,6 +17,7 @@
   letter-spacing: -0.02em;
   color: var(--color-gray-900);
   padding-bottom: 8px;
+  text-align: center;
 }
 
 .customers__number-desc {
@@ -26,12 +27,13 @@
   line-height: 156%;
   letter-spacing: -0.02em;
   color: var(--color-gray-900);
+  text-align: center;
 }
 
 .customers__logo-grid {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, 260px);
   column-gap: 30px;
   align-items: center;
   max-width: 730px;
@@ -44,7 +46,28 @@
   height: 90px;
 }
 
-.customers__logo-item svg {
-  max-width: 100%;
-  height: auto;
+@media (--md-viewport) {
+  .customers__logo-grid {
+    grid-template-columns: repeat(auto-fit, 160px);
+  }
+}
+
+@media (--xl-viewport) {
+  .customers {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .customers__number-title {
+    text-align: left;
+  }
+
+  .customers__number-desc {
+    text-align: left;
+  }
+
+  .customers__number {
+    min-width: 350px;
+    padding: 90px 0;
+  }
 }

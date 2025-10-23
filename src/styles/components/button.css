@@ -38,6 +38,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
+  display: flex;
+  margin: 0 auto;
 }
 
 .button--transparent {
@@ -68,12 +70,12 @@
   padding: 0;
   width: auto;
   height: auto;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 8px;
   cursor: pointer;
   align-self: flex-start;
-  margin-top: 17px;
+  margin: 17px auto;
 }
 
 .button::after {
@@ -84,4 +86,17 @@
   background-repeat: no-repeat;
   background-position: center;
   flex-shrink: 0;
+}
+
+@media (--md-viewport) {
+  .button--text {
+    margin-top: 17px;
+    display: inline-flex;
+  }
+}
+
+@media (--lg-viewport) {
+  .button--big {
+    margin: 0;
+  }
 }

@@ -11,7 +11,7 @@
 .closing__title {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 52px;
+  font-size: 32px;
   line-height: 119%;
   letter-spacing: -0.02em;
   text-align: center;
@@ -28,6 +28,27 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: var(--color-text-secondary);
-  white-space: nowrap;
   padding-bottom: 57px;
+}
+
+@media (--md-viewport) {
+  .closing__title {
+    font-size: 48px;
+  }
+}
+
+@media (--lg-viewport) {
+  .closing__title {
+    font-size: 52px;
+  }
+
+  .closing__desc {
+    white-space: nowrap;
+  }
+}
+
+@media (--xl-viewport) {
+  .closing__title {
+    text-align: left;
+  }
 }

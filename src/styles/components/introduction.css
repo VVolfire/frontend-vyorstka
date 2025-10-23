@@ -1,15 +1,18 @@
 .introduction {
   background-color: var(--color-bg-dark);
-  padding: 134px 0 150px;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .introduction__title {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 64px;
+  font-size: 48px;
   line-height: 112%;
   letter-spacing: -0.02em;
   color: var(--color-text-light);
+  text-align: center;
 }
 
 .introduction__quote {
@@ -21,16 +24,19 @@
   font-family: var(--font-family);
   font-style: italic;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 142%;
   letter-spacing: -0.02em;
   color: var(--color-text-light);
   padding-bottom: 36px;
+  text-align: center;
 }
 
 .quote__info {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -52,6 +58,7 @@
   font-size: 18px;
   line-height: 156%;
   color: var(--color-text-light);
+  text-align: center;
 }
 
 .quote__job {
@@ -60,4 +67,53 @@
   font-size: 16px;
   line-height: 162%;
   color: var(--color-text-light);
+  text-align: center;
+}
+
+@media (--md-viewport) {
+  .introduction {
+    padding: 69px 0 90px;
+  }
+
+  .introduction__title {
+    font-size: 56px;
+  }
+
+  .quote__info {
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .quote__text {
+    font-size: 24px;
+  }
+
+  .quote__name {
+    text-align: left;
+  }
+
+  .quote__job {
+    text-align: left;
+  }
+}
+
+@media (--lg-viewport) {
+  .introduction {
+    padding: 134px 0 150px;
+  }
+
+  .introduction__title {
+    font-size: 64px;
+    text-align: left;
+  }
+
+  .quote__info {
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+  .quote__text {
+    font-size: 24px;
+    text-align: left;
+  }
 }
