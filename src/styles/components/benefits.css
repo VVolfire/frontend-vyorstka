@@ -10,7 +10,7 @@
   line-height: 119%;
   letter-spacing: -0.02em;
   color: var(--color-gray-900);
-  margin-bottom: 38px;
+  padding-bottom: 38px;
   text-align: center;
 }
 
@@ -58,7 +58,7 @@
   line-height: 142%;
   letter-spacing: -0.02em;
   color: var(--color-gray-900);
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .benefits__item-desc {
@@ -90,10 +90,6 @@
 }
 
 @media (--xl-viewport) {
-  .benefits {
-    padding: 132px;
-  }
-
   .benefits__title {
     text-align: left;
   }

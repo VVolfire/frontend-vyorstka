@@ -13,7 +13,7 @@
   line-height: 119%;
   letter-spacing: -0.02em;
   color: var(--color-text-light);
-  margin-bottom: 52px;
+  padding-bottom: 52px;
   text-align: center;
 }
 
@@ -39,8 +39,8 @@
   line-height: 142%;
   letter-spacing: -0.02em;
   color: var(--color-text-primary);
-  margin-bottom: 12px;
-  margin-top: 32px;
+  padding-bottom: 12px;
+  padding-top: 32px;
 }
 
 .solutions__item-desc {
@@ -50,7 +50,7 @@
   line-height: 162%;
   letter-spacing: -0.02em;
   color: var(--color-text-primary);
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .solutions__item-link {
@@ -73,6 +73,10 @@
   background-repeat: no-repeat;
   background-position: center;
   flex-shrink: 0;
+}
+
+.solutions__button-wrapper {
+  padding-top: 38px;
 }
 
 @media (--md-viewport) {

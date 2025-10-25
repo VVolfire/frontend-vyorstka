@@ -5,9 +5,6 @@
   flex-direction: column;
 }
 
-.closing__banner {
-}
-
 .closing__title {
   font-family: var(--font-family);
   font-weight: 700;
