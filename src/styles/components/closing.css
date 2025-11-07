@@ -26,11 +26,18 @@
   text-align: center;
   color: var(--color-text-secondary);
   padding-bottom: 57px;
+  white-space: wrap;
+  min-width: 420px;
 }
 
 @media (--md-viewport) {
   .closing__title {
     font-size: 48px;
+  }
+
+  .closing__desc {
+    white-space: nowrap;
+    min-width: auto;
   }
 }
 
