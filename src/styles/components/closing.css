@@ -27,7 +27,8 @@
   color: var(--color-text-secondary);
   padding-bottom: 57px;
   white-space: wrap;
-  min-width: 420px;
+  max-width: 420px;
+  width: 100%;
 }
 
 @media (--md-viewport) {
@@ -37,7 +38,7 @@
 
   .closing__desc {
     white-space: nowrap;
-    min-width: auto;
+    max-width: none;
   }
 }
 
