@@ -33,7 +33,7 @@
 .customers__logo-grid {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 260px);
+  grid-template-columns: repeat(1, 260px);
   column-gap: 30px;
   align-items: center;
   max-width: 730px;
@@ -44,6 +44,12 @@
   justify-content: center;
   align-items: center;
   height: 90px;
+}
+
+@media (--sm-viewport) {
+  .customers__logo-grid {
+    grid-template-columns: repeat(auto-fit, 160px);
+  }
 }
 
 @media (--md-viewport) {

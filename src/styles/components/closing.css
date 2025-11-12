@@ -1,5 +1,5 @@
 .closing {
-  padding: 115px 260px 114px;
+  padding: 115px 0 114px;
   display: flex;
   place-items: center;
   flex-direction: column;
@@ -13,7 +13,6 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: var(--color-text-primary);
-  white-space: nowrap;
   padding-bottom: 24px;
 }
 
@@ -49,11 +48,5 @@
 
   .closing__desc {
     white-space: nowrap;
-  }
-}
-
-@media (--xl-viewport) {
-  .closing__title {
-    text-align: left;
   }
 }
